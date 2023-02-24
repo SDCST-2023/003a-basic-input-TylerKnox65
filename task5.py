@@ -17,4 +17,6 @@ import math
 
 vol = float(input("What is the volume? "))
 rad = (3 * (vol / (4 * math.pi))) ** (1 / 3)
+rad = float(rad)
+
 print(rad)
