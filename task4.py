@@ -16,3 +16,10 @@
 # r = 3
 # h = 5
 # sa = 83.2297607912
+
+import math
+
+height = int(input("Height? "))
+radius = int(input("Radius? "))
+SA = (math.pi * radius) * (radius + math.sqrt(((math.pow(height, 2) + math.pow(radius, 2)))))
+print(SA)
